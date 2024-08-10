@@ -66,7 +66,7 @@ export default function FAQ() {
                 >
                   <div className="accordion-body">
                     Untuk membuat akun detiklearning, Kamu dapat mengklik tombol
-                    "Daftar" pada halaman beranda, lalu ikuti panduan
+                    &quot;Daftar&quot; pada halaman beranda, lalu ikuti panduan
                     pendaftaran dengan menggunakan alamat email detik kamu untuk
                     mendaftar.
                   </div>
@@ -99,9 +99,10 @@ export default function FAQ() {
                   aria-labelledby="panelsStayOpen-headingThree"
                 >
                   <div className="accordion-body">
-                    Untuk login ke akun detiklearning, cukup klik tombol "Login"
-                    dan masukkan alamat email detik Kamu beserta kata sandi yang
-                    Kamu gunakan&nbsp;saat&nbsp;mendaftar.
+                    Untuk login ke akun detiklearning, cukup klik tombol
+                    &quot;Login&quot; dan masukkan alamat email detik Kamu
+                    beserta kata sandi yang Kamu
+                    gunakan&nbsp;saat&nbsp;mendaftar.
                   </div>
                 </div>
               </div>

@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "../styles/CarouselTestimony.css";
 import { Navigation } from "swiper/modules";
+import Image from "next/image";
 
 export default function CaraouselTestimony() {
   const [swiperRef, setSwiperRef] = useState(null);
