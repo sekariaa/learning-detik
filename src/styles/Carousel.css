@@ -1,0 +1,27 @@
+.carousel-inner {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  height: 350px;
+}
+
+.carousel-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item {
+    height: 200px;
+  }
+}

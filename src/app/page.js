@@ -1,95 +1,106 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Carousel from "@/components/Carousel";
+import Navbar from "@/components/Navbar";
+import CarouselText from "@/components/CarouselText";
+import CarouselKategori from "@/components/CarouselKategori";
+import CarouselTestimony from "@/components/CarouselTestimony";
+import Statistic from "@/components/Statistic";
+import Video from "@/components/Video";
+import FAQ from "@/components/FAQ";
+import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+      <header>
+        <Navbar></Navbar>
+      </header>
+      <main className="text-center mb-5">
+        <Carousel></Carousel>
+        <div className="px-1 px-md-3 px-lg-5">
+          <h1 className="text-primary fw-bold mt-2">
+            Upgrade Dirimu, Upgrade karirmu! 🚀
+          </h1>
+          <h4>Belajar bersama detikcom kapan pun dan dimana pun!</h4>
+          <button type="button" className="btn btn-secondary">
+            Mulai Belajar Sekarang!
+          </button>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      </main>
+      <article className="container justify-center mt-2 mb-5">
+        <div className="row">
+          <div className="col-lg-3 d-flex flex-column justify-content-center">
+            <h1 className="text-primary fw-bold">Kelas Terbaru</h1>
+            <h4>
+              Temukan ilmu baru dengan berbagai judul kelas terbaru di
+              detikLearning!
+            </h4>
+            <div className="d-flex justify-content-start">
+              <button type="button" className="btn btn-secondary">
+                Lihat Semua
+              </button>
+            </div>
+          </div>
+          <div className="col-lg-9 d-flex flex-column justify-content-center">
+            <CarouselText></CarouselText>
+          </div>
+        </div>
+      </article>
+      <article className="d-flex flex-column justify-content-center px-1 px-md-3 px-lg-5 mb-5">
+        <div className="mb-2 text-center">
+          <h1 className="text-primary fw-bold">Berbagai Macam Kategori</h1>
+          <h4>Eksplor berbagai kelas inspiratifdi setiap kategori</h4>
+        </div>
+        <CarouselKategori></CarouselKategori>
+      </article>
+      <article className="custom-bg p-4 px-1 px-md-3 px-lg-5 mb-5 ">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 d-flex flex-column justify-content-center">
+              <h1 className="text-white">Apa Kata Mereka?</h1>
+              <h4 className="text-white">
+                Mari lihat ulasan dan pendapat #anakdetik tentang pembelajaran
+                di detikLearning
+              </h4>
+              <div className="d-flex justify-content-start mt-3">
+                <Link href="/testimony" className="btn btn-light">
+                  Baca Semua
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-9 d-flex flex-column justify-content-center">
+              <CarouselTestimony></CarouselTestimony>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article className="container justify-center mt-2 mb-5">
+        <div className="row">
+          <div className="col-lg-6 d-flex flex-column justify-content-center">
+            <h1 className="text-primary fw-bold">Cek Kredensial 🕵️</h1>
+            <h4>Verifikasi nomor sertifikat kamu di sini!</h4>
+          </div>
+          <div className="col-lg-6 d-flex flex-row justify-content-center align-items-center gap-3">
+            <div>
+              <button
+                className="btn btn-outline-primary custom-btn"
+                type="button"
+              >
+                Lihat Caranya
+              </button>
+            </div>
+            <div>
+              <button className="btn btn-primary custom-btn" type="button">
+                Coba Verifikasi
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <Statistic></Statistic>
+      <Video></Video>
+      <FAQ></FAQ>
+      <Footer></Footer>
+    </>
   );
 }
