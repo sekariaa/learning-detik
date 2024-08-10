@@ -47,6 +47,7 @@ export default function App() {
             alt="Carousel Image Kategori"
             layout="fill"
             objectFit="cover"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -57,6 +58,7 @@ export default function App() {
             alt="Carousel Image Kategori"
             layout="fill"
             objectFit="cover"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -67,6 +69,7 @@ export default function App() {
             alt="Carousel Image Kategori"
             layout="fill"
             objectFit="cover"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -77,6 +80,7 @@ export default function App() {
             alt="Carousel Image Kategori"
             layout="fill"
             objectFit="cover"
+            loading="lazy"
           />
         </SwiperSlide>
         <SwiperSlide>

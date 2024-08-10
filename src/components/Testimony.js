@@ -12,7 +12,13 @@ export default function Testimony() {
               alt="quote"
               className="image-quote d-block d-sm-none"
             />
-            <Image src="/ari.png" width={150} height={150} />
+            <Image
+              src="/ari.png"
+              width={150}
+              height={150}
+              alt="user photo"
+              loading="lazy"
+            />
           </div>
           <div className="col col-lg-9 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start pt-2">
             <h1 className="text-primary text-center text-lg-start">
@@ -39,7 +45,13 @@ export default function Testimony() {
               alt="quote"
               className="image-quote d-block d-sm-none"
             />
-            <Image src="/nanda.png" width={150} height={150} />
+            <Image
+              src="/nanda.png"
+              width={150}
+              height={150}
+              alt="user photo"
+              loading="lazy"
+            />
           </div>
           <div className="col col-lg-9 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start pt-2">
             <h1 className="text-primary text-center text-lg-start">
@@ -63,7 +75,12 @@ export default function Testimony() {
               alt="quote"
               className="image-quote d-block d-sm-none"
             />
-            <Image src="/fatimah.png" width={150} height={150} />
+            <Image
+              src="/fatimah.png"
+              width={150}
+              height={150}
+              alt="user photo"
+            />
           </div>
           <div className="col col-lg-9 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start pt-2">
             <h1 className="text-primary text-center text-lg-start">
@@ -90,7 +107,7 @@ export default function Testimony() {
               alt="quote"
               className="image-quote d-block d-sm-none"
             />
-            <Image src="/zahra.png" width={150} height={150} />
+            <Image src="/zahra.png" width={150} height={150} alt="user photo" />
           </div>
           <div className="col col-lg-9 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start pt-2">
             <h1 className="text-primary text-center text-lg-start">
@@ -116,7 +133,12 @@ export default function Testimony() {
               alt="quote"
               className="image-quote d-block d-sm-none"
             />
-            <Image src="/ngab-adib.png" width={150} height={150} />
+            <Image
+              src="/ngab-adib.png"
+              width={150}
+              height={150}
+              alt="user photo"
+            />
           </div>
           <div className="col col-lg-9 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start pt-2">
             <h1 className="text-primary text-center text-lg-start">

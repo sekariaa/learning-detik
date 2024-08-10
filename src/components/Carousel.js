@@ -45,9 +45,10 @@ export default function Carousel() {
               alt="Carousel Image - Foto dan Jurnalistik"
               layout="fill"
               objectFit="cover"
+              loading="lazy"
             />
           </div>
-          <div className="carousel-item active">
+          <div className="carousel-item">
             <Image
               src="/learning-with-bestie-min.png"
               className=""

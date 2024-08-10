@@ -8,13 +8,28 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col d-flex flex-column align-items-lg-start align-items-center gap-3 py-2">
-              <Image src="/logo.png" width={240} height={30} />
+              <Image src="/logo.png" width={240} height={30} alt="logo detik" />
               <div className="d-flex flex-row gap-2">
-                <Image src="/facebook.png" width={40} height={40} />
-                <Image src="/twitter.png" width={40} height={40} />
-                <Image src="/instagram.png" width={40} height={40} />
-                <Image src="/linkedin.png" width={40} height={40} />
-                <Image src="/youtube.png" width={40} height={40} />
+                <Image
+                  src="/facebook.png"
+                  width={40}
+                  height={40}
+                  alt="sosmed"
+                />
+                <Image src="/twitter.png" width={40} height={40} alt="sosmed" />
+                <Image
+                  src="/instagram.png"
+                  width={40}
+                  height={40}
+                  alt="sosmed"
+                />
+                <Image
+                  src="/linkedin.png"
+                  width={40}
+                  height={40}
+                  alt="sosmed"
+                />
+                <Image src="/youtube.png" width={40} height={40} alt="sosmed" />
               </div>
             </div>
             <div className="col d-flex flex-row gap-lg-5 gap-2 justify-content-end">
