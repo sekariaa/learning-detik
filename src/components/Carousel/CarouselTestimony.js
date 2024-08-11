@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import "../styles/CarouselTestimony.css";
+import "../../styles/CarouselTestimony.css";
 import { Navigation } from "swiper/modules";
 import Image from "next/image";
 
@@ -40,10 +40,11 @@ export default function CaraouselTestimony() {
         }}
       >
         <SwiperSlide className="user-container">
-          <img
+          <Image
             src="/testimonial-quote.svg"
             alt="quote"
-            className="image-quote"
+            width={25}
+            height={25}
           />
           <p className="user-testimony">
             Sebagai seorang jurnalis, detikLearning telah menjadi aset berharga
@@ -58,10 +59,11 @@ export default function CaraouselTestimony() {
           </p>
         </SwiperSlide>
         <SwiperSlide className="user-container">
-          <img
+          <Image
             src="/testimonial-quote.svg"
             alt="quote"
-            className="image-quote"
+            width={25}
+            height={25}
           />
           <p className="user-testimony">
             detikLearning adalah teman terbaik dalam perjalanan pembelajaran
@@ -78,10 +80,11 @@ export default function CaraouselTestimony() {
           </p>
         </SwiperSlide>
         <SwiperSlide className="user-container">
-          <img
+          <Image
             src="/testimonial-quote.svg"
             alt="quote"
-            className="image-quote"
+            width={25}
+            height={25}
           />
           <p className="user-testimony">
             detikLearning benar-benar mengubah cara saya belajar secara online.
@@ -98,10 +101,11 @@ export default function CaraouselTestimony() {
           </p>
         </SwiperSlide>
         <SwiperSlide className="user-container">
-          <img
+          <Image
             src="/testimonial-quote.svg"
             alt="quote"
-            className="image-quote"
+            width={25}
+            height={25}
           />
           <p className="user-testimony">
             detikLearning adalah platform edukatif yang visioner, yang mewakili
@@ -114,10 +118,11 @@ export default function CaraouselTestimony() {
           <p className="user-profile">Pryananda | Video Editor | detikcom</p>
         </SwiperSlide>
         <SwiperSlide className="user-container">
-          <img
+          <Image
             src="/testimonial-quote.svg"
             alt="quote"
-            className="image-quote"
+            width={25}
+            height={25}
           />
           <p className="user-testimony">
             detikLearning benar-benar mengubah cara saya belajar secara online.

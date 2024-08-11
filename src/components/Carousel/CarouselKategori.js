@@ -4,8 +4,8 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import "../styles/CarouselKategori.css";
-import { Pagination, Navigation } from "swiper/modules";
+import "../../styles/CarouselKategori.css";
+import { Navigation } from "swiper/modules";
 
 export default function App() {
   const [swiperRef, setSwiperRef] = useState(null);
@@ -45,8 +45,8 @@ export default function App() {
           <Image
             src="/business.png"
             alt="Carousel Image Kategori"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             loading="lazy"
           />
         </SwiperSlide>
@@ -56,8 +56,8 @@ export default function App() {
           <Image
             src="/content.png"
             alt="Carousel Image Kategori"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             loading="lazy"
           />
         </SwiperSlide>
@@ -67,8 +67,8 @@ export default function App() {
           <Image
             src="/corporate.png"
             alt="Carousel Image Kategori"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             loading="lazy"
           />
         </SwiperSlide>
@@ -78,8 +78,8 @@ export default function App() {
           <Image
             src="/product.png"
             alt="Carousel Image Kategori"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             loading="lazy"
           />
         </SwiperSlide>
@@ -89,8 +89,8 @@ export default function App() {
           <Image
             src="/self-development.png"
             alt="Carousel Image Kategori"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
           />
         </SwiperSlide>
       </Swiper>

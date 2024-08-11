@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import "../styles/Carousel.css";
+import "../../styles/Carousel.css";
 
 export default function Carousel() {
   return (
     <>
       <style jsx>{`
-        @media (max-width: 576px) {
+        @media (max-width: 820px) {
           .carousel-control-prev {
             left: 0px !important;
           }
@@ -43,9 +43,9 @@ export default function Carousel() {
               src="/fix foto dan jutnalistik (1).png"
               className=""
               alt="Carousel Image - Foto dan Jurnalistik"
-              layout="fill"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
               loading="lazy"
+              fill
             />
           </div>
           <div className="carousel-item">
@@ -53,8 +53,8 @@ export default function Carousel() {
               src="/learning-with-bestie-min.png"
               className=""
               alt="Carousel Image - Learning With Bestie"
-              layout="fill"
-              objectFit="cover"
+              style={{ objectFit: "cover" }}
+              fill
             />
           </div>
         </div>

@@ -41,53 +41,59 @@ export default function Navbar() {
         scrollDirection === "down" ? "d-none" : "d-flex"
       } ${isAtTop ? "bg-opacity-100" : "bg-opacity-75"}  d-flex`}
     >
-      <div className="container-fluid d-flex flex-row justify-content-start align-items-center ">
-        <button
-          className="navbar-toggler my-3"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
+      <button
+        className="navbar-toggler my-3"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <a className="navbar-brand px-1" href="/">
+        <Image src="/logo.png" alt="Bootstrap" width={120} height={20} />
+      </a>
+      {/* Posisi 1 */}
+      <div className="d-flex d-lg-none flex-row gap-1 ms-auto">
+        <button className="btn btn-outline-primary" type="button">
+          Register
         </button>
-        <a className="navbar-brand px-1" href="/">
-          <Image src="/logo.png" alt="Bootstrap" width={120} height={20} />
-        </a>
-        <div className="d-flex flex-grow-1 justify-content-between">
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <form className="d-flex">
-              <div className="input-group input-group-focus">
-                <span className="input-group-text border-end-0 rounded-pill rounded-end">
-                  <i className="bi bi-search"></i>
-                </span>
-                <input
-                  className="form-control border-start-0 rounded-pill rounded-start border-none"
-                  type="search"
-                  placeholder="Cari Course"
-                  aria-label="Search"
-                />
-              </div>
-            </form>
-            <ul className="navbar-nav d-flex flex-grow-1 flex-lg-row flex-lg-grow-0 ms-auto my-3 my-lg-0 mx-1">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="">
-                  All Course
-                </a>
-              </li>
-            </ul>
+        <button className="btn btn-primary" type="button">
+          Login
+        </button>
+      </div>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <form className="d-flex">
+          <div className="input-group input-group-focus">
+            <span className="input-group-text border-end-0 rounded-pill rounded-end">
+              <i className="bi bi-search"></i>
+            </span>
+            <input
+              className="form-control border-start-0 rounded-pill rounded-start border-none"
+              type="search"
+              placeholder="Cari Course"
+              aria-label="Search"
+            />
           </div>
-        </div>
-        <div className="d-flex flex-row gap-1 ms-auto">
-          <button className="btn btn-outline-primary" type="button">
-            Register
-          </button>
-          <button className="btn btn-primary" type="button">
-            Login
-          </button>
-        </div>
+        </form>
+        <ul className="navbar-nav d-flex flex-grow-1 flex-lg-row flex-lg-grow-0 ms-auto my-3 my-lg-0 mx-1">
+          <li className="nav-item">
+            <a className="nav-link" aria-current="page" href="">
+              All Course
+            </a>
+          </li>
+        </ul>
+      </div>
+      {/* Posisi 2 */}
+      <div className="d-none d-lg-flex flex-row gap-1 ms-auto">
+        <button className="btn btn-outline-primary" type="button">
+          Register
+        </button>
+        <button className="btn btn-primary" type="button">
+          Login
+        </button>
       </div>
     </nav>
   );

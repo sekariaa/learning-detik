@@ -7,10 +7,12 @@ export default function Testimony() {
       <div className="container mt-4 bg-white rounded p-2">
         <div className="row d-flex flex-column flex-lg-row">
           <div className="col d-flex flex-column justify-content-center align-items-center">
-            <img
+            <Image
               src="/testimonial-quote.svg"
               alt="quote"
-              className="image-quote d-block d-sm-none"
+              width={25}
+              height={25}
+              className="d-block d-sm-none"
             />
             <Image
               src="/ari.png"
@@ -40,10 +42,12 @@ export default function Testimony() {
       <div className="container mt-4 bg-white rounded p-2">
         <div className="row d-flex flex-column flex-lg-row">
           <div className="col d-flex flex-column justify-content-center align-items-center">
-            <img
+            <Image
               src="/testimonial-quote.svg"
               alt="quote"
-              className="image-quote d-block d-sm-none"
+              width={25}
+              height={25}
+              className="d-block d-sm-none"
             />
             <Image
               src="/nanda.png"
@@ -70,10 +74,12 @@ export default function Testimony() {
       <div className="container mt-4 bg-white rounded p-2">
         <div className="row d-flex flex-column flex-lg-row">
           <div className="col d-flex flex-column justify-content-center align-items-center">
-            <img
+            <Image
               src="/testimonial-quote.svg"
               alt="quote"
-              className="image-quote d-block d-sm-none"
+              width={25}
+              height={25}
+              className="d-block d-sm-none"
             />
             <Image
               src="/fatimah.png"
@@ -102,10 +108,12 @@ export default function Testimony() {
       <div className="container mt-4 bg-white rounded p-2">
         <div className="row d-flex flex-column flex-lg-row">
           <div className="col d-flex flex-column justify-content-center align-items-center">
-            <img
+            <Image
               src="/testimonial-quote.svg"
               alt="quote"
-              className="image-quote d-block d-sm-none"
+              width={25}
+              height={25}
+              className="d-block d-sm-none"
             />
             <Image src="/zahra.png" width={150} height={150} alt="user photo" />
           </div>
@@ -128,10 +136,12 @@ export default function Testimony() {
       <div className="container mt-4 bg-white rounded p-2">
         <div className="row d-flex flex-column flex-lg-row">
           <div className="col d-flex flex-column justify-content-center align-items-center">
-            <img
+            <Image
               src="/testimonial-quote.svg"
               alt="quote"
-              className="image-quote d-block d-sm-none"
+              width={25}
+              height={25}
+              className="d-block d-sm-none"
             />
             <Image
               src="/ngab-adib.png"

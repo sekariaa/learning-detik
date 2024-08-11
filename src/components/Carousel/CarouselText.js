@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "../styles/CarouselText.css";
+import "../../styles/CarouselText.css";
 
 export default function CarouselText() {
   return (
@@ -47,7 +47,7 @@ export default function CarouselText() {
                   alt="Carousel Image - Foto dan Jurnalistik"
                   width={200}
                   height={100}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                 />
               </div>
               <div className="col-6">
@@ -74,7 +74,7 @@ export default function CarouselText() {
                   alt="Carousel Image - SEO Writing"
                   width={200}
                   height={100}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   loading="lazy"
                 />
               </div>
@@ -100,7 +100,7 @@ export default function CarouselText() {
                   alt="Carousel Image - Memotret Jurnalistik dengan Telepon Genggam"
                   width={200}
                   height={100}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                 />
               </div>
               <div className="col-6">
@@ -127,7 +127,7 @@ export default function CarouselText() {
                   alt="Carousel Image - Foto dan Jurnalistik"
                   width={200}
                   height={100}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                 />
               </div>
               <div className="col-6">
