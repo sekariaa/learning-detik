@@ -45,7 +45,7 @@ export default function CarouselText() {
                 <Image
                   src="/fix foto dan jutnalistik (1).png"
                   alt="Carousel Image - Foto dan Jurnalistik"
-                  width={100}
+                  width={200}
                   height={100}
                   objectFit="cover"
                 />
@@ -72,7 +72,7 @@ export default function CarouselText() {
                 <Image
                   src="/seo-writing.jpg"
                   alt="Carousel Image - SEO Writing"
-                  width={100}
+                  width={200}
                   height={100}
                   objectFit="cover"
                   loading="lazy"
@@ -98,7 +98,7 @@ export default function CarouselText() {
                 <Image
                   src="/potret-jutnalistik.jpg"
                   alt="Carousel Image - Memotret Jurnalistik dengan Telepon Genggam"
-                  width={100}
+                  width={200}
                   height={100}
                   objectFit="cover"
                 />
@@ -125,7 +125,7 @@ export default function CarouselText() {
                 <Image
                   src="/foto-dan-jutnalistik.jpg"
                   alt="Carousel Image - Foto dan Jurnalistik"
-                  width={100}
+                  width={200}
                   height={100}
                   objectFit="cover"
                 />
