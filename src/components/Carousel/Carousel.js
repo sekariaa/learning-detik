@@ -40,7 +40,7 @@ export default function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <Image
-              src="/fix foto dan jutnalistik (1).png"
+              src="/banner/fix foto dan jutnalistik (1).png"
               className=""
               alt="Carousel Image - Foto dan Jurnalistik"
               style={{ objectFit: "cover" }}
@@ -50,7 +50,7 @@ export default function Carousel() {
           </div>
           <div className="carousel-item">
             <Image
-              src="/learning-with-bestie-min.png"
+              src="/banner/learning-with-bestie-min.png"
               className=""
               alt="Carousel Image - Learning With Bestie"
               style={{ objectFit: "cover" }}

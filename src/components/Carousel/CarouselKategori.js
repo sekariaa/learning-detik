@@ -43,7 +43,7 @@ export default function App() {
           <h2 className="fw-bold">Business</h2>
           <h3>Business related courses</h3>
           <Image
-            src="/business.png"
+            src="/kategori/business.png"
             alt="Carousel Image Kategori"
             fill
             style={{ objectFit: "cover" }}
@@ -54,7 +54,7 @@ export default function App() {
           <h2 className="fw-bold">Content</h2>
           <h3>Content related courses</h3>
           <Image
-            src="/content.png"
+            src="/kategori/content.png"
             alt="Carousel Image Kategori"
             fill
             style={{ objectFit: "cover" }}
@@ -65,7 +65,7 @@ export default function App() {
           <h2 className="fw-bold">Corporate</h2>
           <h3>Corporate related courses</h3>
           <Image
-            src="/corporate.png"
+            src="/kategori/corporate.png"
             alt="Carousel Image Kategori"
             fill
             style={{ objectFit: "cover" }}
@@ -76,7 +76,7 @@ export default function App() {
           <h2 className="fw-bold">Product</h2>
           <h3>Product related courses</h3>
           <Image
-            src="/product.png"
+            src="/kategori/product.png"
             alt="Carousel Image Kategori"
             fill
             style={{ objectFit: "cover" }}
@@ -87,7 +87,7 @@ export default function App() {
           <h2 className="fw-bold">Self Development</h2>
           <h3>Self development related courses</h3>
           <Image
-            src="/self-development.png"
+            src="/kategori/self-development.png"
             alt="Carousel Image Kategori"
             fill
             style={{ objectFit: "cover" }}

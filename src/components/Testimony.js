@@ -15,7 +15,7 @@ export default function Testimony() {
               className="d-block d-sm-none"
             />
             <Image
-              src="/ari.png"
+              src="/user/ari.png"
               width={150}
               height={150}
               alt="user photo"
@@ -50,7 +50,7 @@ export default function Testimony() {
               className="d-block d-sm-none"
             />
             <Image
-              src="/nanda.png"
+              src="/user/nanda.png"
               width={150}
               height={150}
               alt="user photo"
@@ -82,7 +82,7 @@ export default function Testimony() {
               className="d-block d-sm-none"
             />
             <Image
-              src="/fatimah.png"
+              src="/user/fatimah.png"
               width={150}
               height={150}
               alt="user photo"
@@ -115,7 +115,12 @@ export default function Testimony() {
               height={25}
               className="d-block d-sm-none"
             />
-            <Image src="/zahra.png" width={150} height={150} alt="user photo" />
+            <Image
+              src="/user/zahra.png"
+              width={150}
+              height={150}
+              alt="user photo"
+            />
           </div>
           <div className="col col-lg-9 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start pt-2">
             <h1 className="text-primary text-center text-lg-start">
@@ -144,7 +149,7 @@ export default function Testimony() {
               className="d-block d-sm-none"
             />
             <Image
-              src="/ngab-adib.png"
+              src="/user/ngab-adib.png"
               width={150}
               height={150}
               alt="user photo"

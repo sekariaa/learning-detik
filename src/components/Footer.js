@@ -11,25 +11,35 @@ export default function Footer() {
               <Image src="/logo.png" width={240} height={30} alt="logo detik" />
               <div className="d-flex flex-row gap-2">
                 <Image
-                  src="/facebook.png"
-                  width={40}
-                  height={40}
-                  alt="sosmed"
-                />
-                <Image src="/twitter.png" width={40} height={40} alt="sosmed" />
-                <Image
-                  src="/instagram.png"
+                  src="/sosmed/facebook.png"
                   width={40}
                   height={40}
                   alt="sosmed"
                 />
                 <Image
-                  src="/linkedin.png"
+                  src="/sosmed/twitter.png"
                   width={40}
                   height={40}
                   alt="sosmed"
                 />
-                <Image src="/youtube.png" width={40} height={40} alt="sosmed" />
+                <Image
+                  src="/sosmed/instagram.png"
+                  width={40}
+                  height={40}
+                  alt="sosmed"
+                />
+                <Image
+                  src="/sosmed/linkedin.png"
+                  width={40}
+                  height={40}
+                  alt="sosmed"
+                />
+                <Image
+                  src="/sosmed/youtube.png"
+                  width={40}
+                  height={40}
+                  alt="sosmed"
+                />
               </div>
             </div>
             <div className="col d-flex flex-row gap-lg-5 gap-2 justify-content-end">

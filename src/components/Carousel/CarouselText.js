@@ -43,7 +43,7 @@ export default function CarouselText() {
             <div className="row">
               <div className="col-6">
                 <Image
-                  src="/fix foto dan jutnalistik (1).png"
+                  src="/banner/fix foto dan jutnalistik (1).png"
                   alt="Carousel Image - Foto dan Jurnalistik"
                   width={200}
                   height={100}
@@ -70,7 +70,7 @@ export default function CarouselText() {
             <div className="row">
               <div className="col-6">
                 <Image
-                  src="/seo-writing.jpg"
+                  src="/banner/seo-writing.jpg"
                   alt="Carousel Image - SEO Writing"
                   width={200}
                   height={100}
@@ -96,7 +96,7 @@ export default function CarouselText() {
             <div className="row">
               <div className="col-6">
                 <Image
-                  src="/potret-jutnalistik.jpg"
+                  src="/banner/potret-jutnalistik.jpg"
                   alt="Carousel Image - Memotret Jurnalistik dengan Telepon Genggam"
                   width={200}
                   height={100}
@@ -123,7 +123,7 @@ export default function CarouselText() {
             <div className="row">
               <div className="col-6">
                 <Image
-                  src="/foto-dan-jutnalistik.jpg"
+                  src="/banner/foto-dan-jutnalistik.jpg"
                   alt="Carousel Image - Foto dan Jurnalistik"
                   width={200}
                   height={100}
